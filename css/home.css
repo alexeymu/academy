@@ -238,6 +238,10 @@ span a {
     {
         max-width: 100%;
     }
+    .container_time {
+    max-width: 100%;
+    font-size: x-small;
+}
 }
 
 @media (max-width: 768px) {
@@ -262,5 +266,9 @@ span a {
     {
         max-width: 100%;
     }
+    .container_time {
+    max-width: 100%;
+    font-size: x-small;
+}
 }
 
