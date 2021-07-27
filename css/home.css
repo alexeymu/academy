@@ -195,11 +195,11 @@ span a {
     justify-content: center;
     align-items: center;
     position: relative;
-    max-width: 100%;
+   
 }
 
 .video img {
-    max-width: 100%;
+    
     vertical-align: bottom;
 }
 
@@ -218,7 +218,7 @@ span a {
     position: absolute;
     bottom: 10px;
     left: 10px;
-    max-width: 100%;
+    
     color: white;
     font-size: 20px;
 }
