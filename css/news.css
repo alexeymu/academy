@@ -42,6 +42,48 @@
     color: white;
     font-size: 30px;
 }
+   
+        @media all and (max-width: 768px) {
+            .container img {
+                max-width: 100%;
+            }
+            .bottom1 {
+                display: none;
+            }
+            .bottom2 {
+                display: none;
+            }
+            .bottom3 {
+                display: none;
+            }
+            .bottom4 {
+                display: none;
+            }
+            .bottom5 {
+                display: none;
+            }
+        }
+        
+        @media all and (max-width: 480px) {
+            .container img {
+                max-width: 100%;
+            }
+            .bottom1 {
+                display: none;
+            }
+            .bottom2 {
+                display: none;
+            }
+            .bottom3 {
+                display: none;
+            }
+            .bottom4 {
+                display: none;
+            }
+            .bottom5 {
+                display: none;
+            }
+        }
 
 .bottom5 {
     position: absolute;
