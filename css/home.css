@@ -248,4 +248,8 @@ span a {
         width: 100%;
         font-size: x-small;
     }
+    .video img
+    {
+        max-width: 100%;
+    }
 }
