@@ -269,6 +269,15 @@ span a {
     .container_time {
     max-width: 100%;
     font-size: x-small;
+        border-style: none;
 }
+    .big_text_footer
+    {
+    display: none;
+    }
+    .small_text_footer
+    {
+    display: none;
+    }
 }
 
