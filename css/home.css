@@ -279,5 +279,13 @@ span a {
     {
     display: none;
     }
+    #headline{
+    font-size: 0em;
+    }
+    
+    #countdown ul {
+    padding-left: 0px;
+}
+
 }
 
