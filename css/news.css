@@ -47,6 +47,9 @@
             .container img {
                 max-width: 100%;
             }
+             .bottom {
+                display: none;
+            }
             .bottom1 {
                 display: none;
             }
@@ -67,6 +70,9 @@
         @media all and (max-width: 480px) {
             .container img {
                 max-width: 100%;
+            } 
+            .bottom {
+                display: none;
             }
             .bottom1 {
                 display: none;
