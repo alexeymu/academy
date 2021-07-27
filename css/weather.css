@@ -1,0 +1,17 @@
+.w160x36-18 {
+    background-position: 70px -895px !important;
+}
+
+.booked-weather-160x36 {
+    width: 160px !important;
+    text-align: left;
+    background: url(//w.bookcdn.com/images/weather/wsmall.png) no-repeat -4px 0;
+    overflow: hidden;
+    margin: 0 auto;
+    direction: ltr;
+    position: relative !important;
+}
+
+.booked-bl-simple-city {
+    color: #333333 !important;
+}
