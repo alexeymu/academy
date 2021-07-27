@@ -234,6 +234,10 @@ span a {
     .big_text {
         min-height: 150px;
     }
+    .video img
+    {
+        max-width: 100%;
+    }
 }
 
 @media (max-width: 768px) {
@@ -253,3 +257,10 @@ span a {
         max-width: 100%;
     }
 }
+@media (max-width: 480px) {
+    .video img
+    {
+        max-width: 100%;
+    }
+}
+
