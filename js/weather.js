@@ -2,7 +2,7 @@ var css_file = document.createElement("link");
 var widgetUrl = location.href;
 css_file.setAttribute("rel", "stylesheet");
 css_file.setAttribute("type", "text/css");
-css_file.setAttribute("href", 'https://s.bookcdn.com/css/w/bw-160-36.css?v=0.0.1');
+css_file.setAttribute("href", 'css/weather.css');
 document.getElementsByTagName("head")[0].appendChild(css_file);
 
 function setWidgetData_74465(data) {
