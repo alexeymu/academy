@@ -239,15 +239,23 @@ span a {
     .video img {
         max-width: 100%;
     }
-    .container_time {
-        max-width: 100%;
-        font-size: x-small;
+   .big_text_footer {
+        display: none;
     }
-      .big_text {
+    .small_text_footer {
+        display: none;
+    }
+    .big_text {
         min-height: 0;
     }
     .big_text_title {
         padding: 0;
+    }
+    .big_text_description {
+        display: none;
+    }
+    .small_text_description {
+        display: none;
     }
 }
 
