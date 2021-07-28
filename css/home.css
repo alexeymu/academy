@@ -144,6 +144,7 @@ body {
     border: var(--news-border);
     box-sizing: border-box;
     overflow: hidden;
+    
 }
 
 .small img {
@@ -158,6 +159,7 @@ body {
     border: none;
     transition: 1s;
     display: block;
+    background-size: cover!Important;
 }
 
 .small_image img {
