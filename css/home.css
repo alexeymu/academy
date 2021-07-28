@@ -239,12 +239,7 @@ span a {
     .video img {
         max-width: 100%;
     }
-   .big_text_footer {
-        display: none;
-    }
-    .small_text_footer {
-        display: none;
-    }
+  
     .big_text {
         min-height: 0;
     }
