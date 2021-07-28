@@ -4,7 +4,7 @@
         hour = minute * 60,
         day = hour * 24;
 
-    let matchday = "jul 28, 2021 13:00:00",
+    let matchday = "jul 28, 2021 22:00:00",
         countDown = new Date(matchday).getTime(),
         x = setInterval(function() {
 
