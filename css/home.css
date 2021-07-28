@@ -243,6 +243,12 @@ span a {
         max-width: 100%;
         font-size: x-small;
     }
+      .big_text {
+        min-height: 0;
+    }
+    .big_text_title {
+        padding: 0;
+    }
 }
 
 @media (max-width: 768px) {
