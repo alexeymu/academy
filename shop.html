@@ -3,16 +3,16 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Manchester United</title>
+    <title>pizza</title>
     <meta content="width=device-width, initial-scale=1" name="viewport" />
-    <link rel="stylesheet" rel="preload" type="text/css" href="css/global.css">
-    <link rel="stylesheet" rel="preload" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/global.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
-    <link rel="stylesheet" rel="preload" type="text/css" href="css/shop.css">
-    <link rel="stylesheet" rel="preload" type="text/css" href="css/home.css">
+    <link rel="stylesheet" type="text/css" href="css/shop.css">
+    <link rel="stylesheet" type="text/css" href="css/home.css">
 </head>
 
-<body>
+<body id="obn">
 
     <div class="topnav" id="myTopnav">
         <a href="index.html" class="topnav_home"><img src="images/logo.png" alt="Home" rel="noreferrer"></a>
@@ -40,13 +40,17 @@
                 <img src="images/shop6.webp" rel="noreferrer" alt="shop">
             </div>
             <div>
-                <img src="images/shop1.jfif" rel="noreferrer" alt="shop">
+                <img srcset="images/sanchomini.webp 2x,
+                /images/shop1.jfif 1x, 
+" alt="..." , rel="noreferrer ">
             </div>
             <div>
                 <img src="images/shop2.webp" rel="noreferrer" alt="shop">
             </div>
             <div>
-                <img src="images/shop3.jfif" rel="noreferrer" alt="shop">
+                <img srcset="/images/shawmini.jfif 2x,
+                /images/shop3.jfif 1x, 
+" alt="..." rel="noreferrer ">
             </div>
 
 
@@ -56,7 +60,7 @@
                         <img src="images/maikasan.webp" alt="Manchester United Home Shirt 2021-22 with Sancho 25 printing" rel="noreferrer>
                     </div>
                     <div class=" shirt_text ">
-                        <div class="shirt_text_price" style="padding-top: 20px;">
+                        <div class="shirt_text_price ">
                             US$113.00
                         </div>
                         <div class="shirt_text_description ">
@@ -95,12 +99,14 @@
 
 
             <div>
-                <img src="images/shop5.webp " rel="noreferrer "  alt=" shop ">
-            </div>
+                <img srcset="images/traingmini.jfif 2x, /images/shop5.webp 1x, " alt="... " , rel="noreferrer ">
+               
+
+                    </div>
         </a>
     </section>
 
-    <section class="footer">
+    <div class="footer ">
         <ul>
             <li>
                 <a href="https://www.youtube.com/manutd " target="_blank ">
@@ -129,9 +135,13 @@
             </li>
         </ul>
         <div class="footer_copyright ">©2021 Nikolaev Alexey</div>
-    </section>
+    </div>
 
     <script src="js/main.js "></script>
+    <script>
+  window.onresize = function(){window.location.reload();}
+
+        </script>
 </body>
 
 </html>
