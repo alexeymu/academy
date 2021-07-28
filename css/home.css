@@ -201,7 +201,7 @@ span a {
 
 .video img {
     vertical-align: bottom;
-    width: 1200px;
+    width: 100%;
 }
 
 .video a {
