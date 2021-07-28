@@ -260,6 +260,7 @@ span a {
         max-height: 100%;
         background-size: cover !important;
     }
+    
 }
 
 @media (max-width: 768px) {
